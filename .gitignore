@@ -1,0 +1,41 @@
+# Ignore the large Apple Health export file
+apple_health_export.xml
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+.venv/
+env/
+venv/
+
+# macOS system files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Test coverage and profiling
+htmlcov/
+.coverage
+.cache
+.pytest_cache/
+
+# Pipenv / poetry files
+Pipfile.lock
+poetry.lock
